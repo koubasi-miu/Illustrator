@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D5107722601DB3B00CD3BF9 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5107712601DB3B00CD3BF9 /* NextViewController.swift */; };
+		9D5107802602101C00CD3BF9 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51077F2602101C00CD3BF9 /* PersonTableViewCell.swift */; };
 		9D7E1FB12601AE800056AC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E1FB02601AE800056AC41 /* AppDelegate.swift */; };
 		9D7E1FB32601AE800056AC41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E1FB22601AE800056AC41 /* SceneDelegate.swift */; };
 		9D7E1FB52601AE800056AC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E1FB42601AE800056AC41 /* ViewController.swift */; };
@@ -15,6 +17,11 @@
 		9D7E1FBD2601AE800056AC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E1FBB2601AE800056AC41 /* LaunchScreen.storyboard */; };
 		9D7E1FC82601AE810056AC41 /* IllustratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E1FC72601AE810056AC41 /* IllustratorTests.swift */; };
 		9D7E1FD32601AE810056AC41 /* IllustratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E1FD22601AE810056AC41 /* IllustratorUITests.swift */; };
+		9D7E1FF02601B6950056AC41 /* motizuki.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E1FEB2601B6950056AC41 /* motizuki.jpeg */; };
+		9D7E1FF12601B6950056AC41 /* akakura.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E1FEC2601B6950056AC41 /* akakura.jpeg */; };
+		9D7E1FF22601B6950056AC41 /* aobeni.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E1FED2601B6950056AC41 /* aobeni.jpeg */; };
+		9D7E1FF32601B6950056AC41 /* daisuke.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E1FEE2601B6950056AC41 /* daisuke.jpeg */; };
+		9D7E1FF42601B6950056AC41 /* hiten.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E1FEF2601B6950056AC41 /* hiten.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D5107712601DB3B00CD3BF9 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		9D51077F2602101C00CD3BF9 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		9D7E1FAD2601AE800056AC41 /* Illustrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Illustrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7E1FB02601AE800056AC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D7E1FB22601AE800056AC41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		9D7E1FCE2601AE810056AC41 /* IllustratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IllustratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7E1FD22601AE810056AC41 /* IllustratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustratorUITests.swift; sourceTree = "<group>"; };
 		9D7E1FD42601AE810056AC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7E1FEB2601B6950056AC41 /* motizuki.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motizuki.jpeg; sourceTree = "<group>"; };
+		9D7E1FEC2601B6950056AC41 /* akakura.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = akakura.jpeg; sourceTree = "<group>"; };
+		9D7E1FED2601B6950056AC41 /* aobeni.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aobeni.jpeg; sourceTree = "<group>"; };
+		9D7E1FEE2601B6950056AC41 /* daisuke.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daisuke.jpeg; sourceTree = "<group>"; };
+		9D7E1FEF2601B6950056AC41 /* hiten.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiten.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,13 @@
 		9D7E1FAF2601AE800056AC41 /* Illustrator */ = {
 			isa = PBXGroup;
 			children = (
+				9D7E1FEA2601B6950056AC41 /* イラストレーターさん */,
 				9D7E1FB02601AE800056AC41 /* AppDelegate.swift */,
 				9D7E1FB22601AE800056AC41 /* SceneDelegate.swift */,
 				9D7E1FB42601AE800056AC41 /* ViewController.swift */,
 				9D7E1FB62601AE800056AC41 /* Main.storyboard */,
+				9D5107712601DB3B00CD3BF9 /* NextViewController.swift */,
+				9D51077F2602101C00CD3BF9 /* PersonTableViewCell.swift */,
 				9D7E1FB92601AE800056AC41 /* Assets.xcassets */,
 				9D7E1FBB2601AE800056AC41 /* LaunchScreen.storyboard */,
 				9D7E1FBE2601AE800056AC41 /* Info.plist */,
@@ -126,6 +143,18 @@
 				9D7E1FD42601AE810056AC41 /* Info.plist */,
 			);
 			path = IllustratorUITests;
+			sourceTree = "<group>";
+		};
+		9D7E1FEA2601B6950056AC41 /* イラストレーターさん */ = {
+			isa = PBXGroup;
+			children = (
+				9D7E1FEB2601B6950056AC41 /* motizuki.jpeg */,
+				9D7E1FEC2601B6950056AC41 /* akakura.jpeg */,
+				9D7E1FED2601B6950056AC41 /* aobeni.jpeg */,
+				9D7E1FEE2601B6950056AC41 /* daisuke.jpeg */,
+				9D7E1FEF2601B6950056AC41 /* hiten.jpeg */,
+			);
+			path = "イラストレーターさん";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +263,11 @@
 				9D7E1FBD2601AE800056AC41 /* LaunchScreen.storyboard in Resources */,
 				9D7E1FBA2601AE800056AC41 /* Assets.xcassets in Resources */,
 				9D7E1FB82601AE800056AC41 /* Main.storyboard in Resources */,
+				9D7E1FF42601B6950056AC41 /* hiten.jpeg in Resources */,
+				9D7E1FF22601B6950056AC41 /* aobeni.jpeg in Resources */,
+				9D7E1FF12601B6950056AC41 /* akakura.jpeg in Resources */,
+				9D7E1FF32601B6950056AC41 /* daisuke.jpeg in Resources */,
+				9D7E1FF02601B6950056AC41 /* motizuki.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5107802602101C00CD3BF9 /* PersonTableViewCell.swift in Sources */,
+				9D5107722601DB3B00CD3BF9 /* NextViewController.swift in Sources */,
 				9D7E1FB52601AE800056AC41 /* ViewController.swift in Sources */,
 				9D7E1FB12601AE800056AC41 /* AppDelegate.swift in Sources */,
 				9D7E1FB32601AE800056AC41 /* SceneDelegate.swift in Sources */,
